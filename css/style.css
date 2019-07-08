@@ -1,0 +1,347 @@
+/*Web type scale*/
+
+/*http://type-scale.com/*/
+
+html {
+    font-size: 1em;
+}
+
+body {
+    background-color: white;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    line-height: 1.45;
+    color: #262626;
+}
+
+p {
+    margin-bottom: 3.3em;
+    line-height: 2.5;
+    letter-spacing: 1.11px;
+    font-weight: 600;
+    font-size: 1.14em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ol p {
+    margin-bottom: 1em;
+}
+
+.bot-mar {
+    margin-bottom: 3em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Rammetto One', cursive;
+    margin: 1.414em 0 0.5em;
+    font-weight: inherit;
+    font-size: 1.3em;
+    line-height: 1.2;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 3.157em;
+}
+
+h2 {
+    font-size: 2.969em;
+    font-weight: 600;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.777em;
+}
+
+h4 {
+    font-size: 1.333em;
+}
+
+small,
+.font_small {
+    font-size: 0.75em;
+}
+
+/* link*/
+
+a {
+    color: #2a13d9;
+}
+
+a:hover {
+    color: rgba(242, 44, 19, 0.96);
+    text-decoration: none;
+}
+
+/*--------------------------------allshows styles---------------------------*/
+
+.fav {
+    color: #16E215;
+}
+
+.container .aschill {
+    margin-top: 1em;
+    margin-bottom: -2em;
+}
+
+.left-m {
+    margin-left: 1em;
+}
+
+.right-m {
+    margin-right: -1em;
+}
+
+/*---------------------______------     navigation       ____-----_____-----___*/
+
+.navbackground {
+    background-color: white;
+    margin-bottom: 0em;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .5);
+    /*    disable the button border*/
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-light .navbar-brand {
+    color: black;
+    padding-top: 0;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: dodgerblue;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: fantasy;
+    color: rgba(0, 0, 0, .5);
+    font-size: 1.1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: dodgerblue;
+    font-size: 1em;
+
+}
+
+.icon {
+    margin-top: 0.8em;
+    font-size: 30px;
+}
+
+.navopt {
+    margin-top: 1em;
+    margin-left: -1.2em;
+    margin-right: -1em;
+    margin-bottom: -2.3em;
+}
+
+
+
+
+
+
+/* The active link, when scroll to the section, the menu items will turn to different color */
+
+.navbar-light a.active {
+    color: #0287b4 !important;
+    /*    background-color: #55555a !important;*/
+}
+
+/*------------------------------                  button style               ------------------------------ */
+
+.btn {
+    font-size: .9rem;
+    letter-spacing: 0.15em;
+    line-height: 1em;
+    border-radius: 3em;
+    /*clock wise -- > top left bottom right */
+    padding: 1.8em 3.6em;
+    color: #fff;
+    background: rgba(0, 0, 255, 0.44);
+
+}
+
+.btn:hover {
+    background-color: lawngreen;
+    color: white;
+    opacity: 0.8;
+}
+
+.btn-outline-primary {
+    color: indigo;
+    background-color: transparent;
+    border: 1px indigo solid;
+    transition: all 1.5s;
+
+}
+
+.btn-outline-primary:hover {
+    color: white;
+    background-color: indigo;
+}
+
+
+html,
+body {
+    height: 100%;
+}
+
+.view {
+    text-align: center;
+    height: 63%;
+    background: url("../img/heading_background6.jpg") center center no-repeat;
+    background-size: contain;
+    color: #292324;
+    font-weight: 600;
+}
+
+.view h1 {
+    padding-top: 1.5em;
+
+}
+
+.me {
+    margin-top: 6em;
+
+}
+
+.gray {
+    background-color: #f4f4f4;
+    padding-bottom: 3em;
+    padding-top: 3em;
+
+}
+
+
+/*------------------------    portfolio modal   ------------------------*/
+
+.portfolio {
+    margin-top: 4em;
+}
+
+.portfolio h1 {
+    font-size: 40px;
+    margin-bottom: 1em;
+}
+
+.portfolio-2 {
+    margin-top: 2em;
+}
+
+.portfolio-modal .col-sm-6 h2 {
+    text-align: left;
+}
+
+.gap {
+    margin-top: 2em;
+}
+
+.portfolio-link img:hover {
+    opacity: 0.9;
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
+}
+
+.portfolio-modal .modal-body {
+    position: static;
+}
+
+.portfolio-modal .modal-dialog {
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+    margin: 0;
+    /*    enable the overflow to set the screen no scrolling*/
+    /*        overflow: hidden;*/
+}
+
+.portfolio-modal .modal-content {
+    /*Change the paragraph font color*/
+    color: black;
+    padding: 0 0 2em 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: left;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    /*Change the background-color*/
+    background-color: #f4f4f4;
+}
+
+.portfolio-modal .modal-content h2 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.portfolio-modal .modal-content .item-details {
+    margin: 2em 0;
+}
+
+.portfolio-modal .modal-header {
+    border-bottom: none;
+}
+
+.portfolio-modal .close {
+    color: red;
+    font-size: 3em;
+    padding-right: 1em;
+    font-weight: 200;
+}
+
+.portfolio-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
+}
+
+.portfolio-modal .bottom {
+    padding: 5em;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.portfolio-modal .modal-content p {
+    line-height: 2;
+}
+
+.work .col-sm-3 {
+    padding: 1em;
+    padding-left: .5em;
+    padding-right: .5em;
+
+}
+
+strong {
+    color: blue;
+}
+
+/*------------------    footer style     -----------------*/
+
+footer {
+    margin-top: 1em;
+    padding: 3em;
+    background-color: #c0fdfd;
+}
+
+
+footer .social {
+    font-size: 2em;
+}
+
+footer .marginl {
+    margin-top: -2em;
+}
