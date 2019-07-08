@@ -2,4 +2,4 @@
 
 
 click this link to watch the website
-https://alifsams.github.io/personal_website/#portfolio
+https://alifsams.github.io/personal_website/#top
